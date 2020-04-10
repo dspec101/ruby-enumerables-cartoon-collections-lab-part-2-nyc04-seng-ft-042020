@@ -19,7 +19,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planteer_calls.any? do |element|
-    element.class == String
+ #   element.class == String
     element.length > 4
   end
 end
